@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srimathi K's</title>
+    <meta name="description" content="Portfolio of Srimathi K, a Computer Science Engineer and Full Stack Developer." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'baby-pink': '#E7C0BC',
+              'black-bean': '#370808',
+              'cordovan': '#8B3C46',
+              'ny-pink': '#D97E8A',
+              'marvelous': '#EC9FAB',
+              'rose-surface': '#FFF0F0',
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'gradient-pink': 'linear-gradient(135deg, #FFF0F0 0%, #E7C0BC 100%)',
+              'gradient-dark': 'linear-gradient(135deg, #370808 0%, #8B3C46 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #FFF0F0;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #D97E8A;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #8B3C46;
+      }
+      
+      /* iOS Glassmorphism Utilities */
+      .glass-card {
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        box-shadow: 0 8px 32px 0 rgba(139, 60, 70, 0.1);
+      }
+
+      .glass-card-dark {
+        background: rgba(55, 8, 8, 0.4);
+        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: saturate(180%) blur(20px);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      
+      .glass-btn {
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transition: all 0.3s ease;
+      }
+      .glass-btn:hover {
+        background: rgba(255, 255, 255, 0.7);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(139, 60, 70, 0.15);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-rose-surface text-black-bean antialiased overflow-x-hidden selection:bg-ny-pink selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
