@@ -181,7 +181,7 @@ function App() {
                         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-50"></div>
                         
                         <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center mb-6 shadow-inner ring-1 ring-white/30 backdrop-blur-md overflow-hidden">
-                          <img src="/SK Logo.png" alt="SK Avatar" className="w-24 h-24 rounded-full object-cover" />
+                          <img src="/avatar.png" alt="SK Avatar" className="w-24 h-24 rounded-full object-cover" />
                         </div>
                         
                         <div className="font-serif text-3xl font-bold mb-2 text-shadow-sm">Srimathi K</div>
