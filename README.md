@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌐 Srimathi K — Personal Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website!  
+This project showcases my skills, projects, and experience through a modern, responsive, and visually engaging web interface.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1YEcHXpRbJ8vNvTBD4ZXeSEi05MKa6IFE
+## ✨ Features
 
-## Run Locally
+- ⚡ Fast and lightweight (Vite powered)
+- 🎨 Modern UI with smooth animations
+- 📱 Fully responsive design
+- 🧩 Component-based architecture
+- 🌙 Clean and minimal aesthetic
+- 🚀 Optimized for performance
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React + TypeScript
+- **Build Tool:** Vite
+- **Styling:** CSS / Modern UI effects
+- **Icons & Assets:** SVG & custom graphics
+
+---
+
+## 📁 Project Structure
+
+```bash
+├── components/        # Reusable UI components
+├── public/            # Static assets (favicon, images)
+├── App.tsx            # Main app component
+├── index.tsx          # Entry point
+├── constants.tsx      # Constants & data
+├── types.ts           # Type definitions
+├── vite.config.ts     # Vite configuration
+└── package.json       # Dependencies & scripts
